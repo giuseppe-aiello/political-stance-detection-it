@@ -1,0 +1,22 @@
+# --- Data Collection & Scraping ---
+instaloader           # Per scaricare commenti e caption da Instagram
+
+# --- Data Manipulation & Analysis ---
+pandas                # Per gestire i dataset (CSV/Dataframe)
+numpy                 # Calcolo numerico (base per PyTorch)
+emoji                 # Fondamentale per convertire emoji in testo (es. 😍 -> :heart_eyes:)
+
+# --- Deep Learning & NLP (The Core) ---
+torch                 # PyTorch: il motore matematico del modello
+transformers          # Hugging Face: per scaricare UmBERTo/BERT e fare training
+accelerate            # Ottimizza il training loop di Hugging Face
+scikit-learn          # Per metriche (F1-score) e split dati (train/test)
+
+# --- Visualization ---
+matplotlib            # Per grafici base
+seaborn               # Per visualizzare la "Confusion Matrix" in modo leggibile
+
+# --- Utilities ---
+tqdm                  # Barre di caricamento (essenziale quando scarichi o addestri)
+python-dotenv         # Per gestire password/login in sicurezza (.env)
+jupyterlab            # Per lavorare sui Notebooks
